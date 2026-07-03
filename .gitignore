@@ -1,0 +1,27 @@
+# MATLAB standard files and directories to ignore
+
+# Workspace and history files
+*.asv
+*.mat
+*.fig
+.matlab/_cv_db
+
+# Simulink cache and generated code directories
+slprj/
+*_slprj/
+sfprj/
+
+# Embedded Coder / MATLAB Coder artifacts
+*_ert_rtw/
+*_rtw/
+codegen/
+
+# Toolboxes and temporary compilation logs
+derivatives/
+html/
+.SimulinkProject/
+_slProject/
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
